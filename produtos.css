@@ -2,6 +2,7 @@ header {
     background: #BBBBBB;
     display: flex;
     justify-content: space-around;
+    padding: 20px 0;
 }
 
 nav {
@@ -19,4 +20,32 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+
+#produtos {
+    display: flex;
+    justify-content: center;
+}
+
+#produtos li {
+    text-align: center;
+    vertical-align: top;
+    width: 20%;
+    margin: 40px 0;
+    padding: 20px;
+}
+
+#produtos h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.prod-descricao {
+    font-size: 18px;
+}
+
+.prod-preco {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 22px;
 }
